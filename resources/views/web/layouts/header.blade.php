@@ -1,4 +1,3 @@
-<?php $l10n = app('localization') ?>
 <div class="loader">
     <img src="{{ asset('web/images/LogoSilkWires.svg') }}" alt=" ">
 </div>
@@ -7,7 +6,7 @@
     <nav class="navbar navbar-expand-lg navbar-underpage fixed-top" color-on-scroll="120">
         <div class="container-fluid">
             <div class="navbar-translate">
-                <a class="navbar-brand" href="{{ ('/') }}">
+                <a class="navbar-brand" href="{{ translate_route('home') }}">
                     <img src="{{ asset('web/images/LogoSilkWires.svg') }}" alt="Silkwires" width="245">
                 </a>
                 <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +21,7 @@
                         <a class="nav-link @yield('agency_active')" href="#">{{ __('menus.agency') }}</a>
                     </li>
                     <li class="nav-item p-0">
-                        <a class="nav-link @yield('services_active')" href="{{ $l10n->route('web.service.index') }}">{{ __('menus.services') }}</a>
+                        <a class="nav-link @yield('services_active')" href="{{ translate_route('services.index') }}">{{ __('menus.services') }}</a>
                     </li>
                     <li class="nav-item p-0">
                         <a class="nav-link @yield('clients_active')" href="clients.php">{{ __('menus.clients') }}</a>

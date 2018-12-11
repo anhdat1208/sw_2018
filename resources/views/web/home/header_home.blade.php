@@ -1,4 +1,3 @@
-<?php $l10n = app('localization') ?>
 <div class="loader">
     <img src="{{ asset('web/images/LogoSilkWires.svg') }}" alt="">
 </div>
@@ -22,13 +21,13 @@
                         <a class="nav-link" href="#">{{ __('menus.agency') }}</a>
                     </li>
                     <li class="nav-item p-0">
-                        <a class="nav-link" href="{{ $l10n->route('web.service.index') }}">{{ __('menus.services') }}</a>
+                        <a class="nav-link" href="{{ translate_route('services.index') }}">{{ __('menus.services') }}</a>
                     </li>
                     <li class="nav-item p-0">
                         <a class="nav-link" href="">{{ __('menus.clients') }}</a>
                     </li>
                     <li class="nav-item p-0">
-                        <a class="nav-link" href="{{ $l10n->route('web.contact.index') }}">{{ __('menus.contact_us') }}</a>
+                        <a class="nav-link" href="{{ translate_route('contact.index') }}">{{ __('menus.contact_us') }}</a>
                     </li>
                     <li class="dropdown nav-item">
                         <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">

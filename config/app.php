@@ -113,9 +113,9 @@ return [
     //         'charset' => 'UTF-8',
     //         'constants' => ['LC_TIME'],
     //     ],
-    //     'vi' => [
+    //     'de' => [
     //         'native' => 'Tiếng Việt',
-    //         'regional_code' => 'vi_VN',
+    //         'regional_code' => 'de_DE',
     //         'charset' => 'UTF-8',
     //         'constants' => ['LC_ALL'],
     //     ],
