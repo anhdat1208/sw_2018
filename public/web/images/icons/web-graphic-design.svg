@@ -1,0 +1,45 @@
+<svg id="Group_336" data-name="Group 336" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 105.05 106.079">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #e96d00;
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2 {
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="Group_332" data-name="Group 332" transform="translate(25.861 43.386)">
+    <circle id="Ellipse_43" data-name="Ellipse 43" class="cls-1" cx="8.492" cy="8.492" r="8.492" transform="translate(11.625 11.617)"/>
+    <circle id="Ellipse_44" data-name="Ellipse 44" class="cls-1" cx="15.399" cy="15.399" r="15.399" transform="translate(0 11.787) rotate(-22.5)"/>
+    <circle id="Ellipse_45" data-name="Ellipse 45" class="cls-1" cx="15.399" cy="15.399" r="15.399" transform="translate(0 11.787) rotate(-22.5)"/>
+    <path id="Path_402" data-name="Path 402" class="cls-1" d="M65.98,63.39c-.083.095-.177.177-.26.26" transform="translate(-13.988 -31.938)"/>
+  </g>
+  <g id="Group_334" data-name="Group 334" transform="translate(77.475 0.75)">
+    <g id="Group_333" data-name="Group 333" transform="translate(0.012 14.607)">
+      <path id="Path_403" data-name="Path 403" class="cls-1" d="M79,13.1V72.581H66a24.017,24.017,0,0,0,7.049-11.875A25.093,25.093,0,0,0,65.63,49.6V13.1Z" transform="translate(-65.63 -13.1)"/>
+      <path id="Path_404" data-name="Path 404" class="cls-2" d="M78.979,63.39l-2.7,5.973-4.211,9.3L65.72,63.65" transform="translate(-65.614 -3.909)"/>
+      <line id="Line_20" data-name="Line 20" class="cls-2" x2="8.409" transform="translate(2.578 65.442)"/>
+    </g>
+    <path id="Path_405" data-name="Path 405" class="cls-1" d="M77.637,7.48H66.98a1.36,1.36,0,0,0-1.36,1.36v5.145H78.985V8.84A1.35,1.35,0,0,0,77.637,7.48Z" transform="translate(-65.62 0.48)"/>
+    <rect id="Rectangle_22" data-name="Rectangle 22" class="cls-1" width="4.956" height="7.298" transform="translate(4.211)"/>
+  </g>
+  <g id="Group_335" data-name="Group 335" transform="translate(0.75 21.957)">
+    <circle id="Ellipse_46" data-name="Ellipse 46" class="cls-1" cx="15.399" cy="15.399" r="15.399" transform="translate(25.111 33.216) rotate(-22.5)"/>
+    <path id="Path_406" data-name="Path 406" class="cls-1" d="M77.593,71.821c-7.215,6.824-18.782,11.236-31.816,11.236a50.751,50.751,0,0,1-24.85-6.15C14.009,72.992,9.017,67.48,7.054,61.176c1.561-6.8,6.635-12.786,13.874-16.984A50.583,50.583,0,0,1,46.18,37.805c12.726,0,24.057,4.211,31.307,10.775V18.68H8.272A7.519,7.519,0,0,0,.75,26.2V94.53a7.526,7.526,0,0,0,7.522,7.522H96.778A7.526,7.526,0,0,0,104.3,94.53V26.2a7.519,7.519,0,0,0-7.522-7.522H90.852V71.561" transform="translate(-0.75 -18.68)"/>
+    <path id="Path_407" data-name="Path 407" class="cls-1" d="M76.88,68.606a24.017,24.017,0,0,0,7.049-11.875,25.093,25.093,0,0,0-7.416-11.106C69.263,39.061,57.932,34.85,45.205,34.85a50.582,50.582,0,0,0-25.252,6.387C12.715,45.436,7.641,51.42,6.08,58.221c1.963,6.3,6.955,11.816,13.874,15.731A50.751,50.751,0,0,0,44.8,80.1c13.034,0,24.6-4.412,31.816-11.236M45,72.674a15.4,15.4,0,1,1,15.4-15.4A15.4,15.4,0,0,1,45,72.674Z" transform="translate(0.224 -15.725)"/>
+    <circle id="Ellipse_47" data-name="Ellipse 47" class="cls-1" cx="15.399" cy="15.399" r="15.399" transform="translate(25.111 33.216) rotate(-22.5)"/>
+    <path id="Path_408" data-name="Path 408" class="cls-1" d="M43.062,36.431A50.582,50.582,0,0,0,17.81,42.818V26.2H74.369V47.206C67.119,40.641,55.788,36.431,43.062,36.431Z" transform="translate(2.368 -17.306)"/>
+    <path id="Path_409" data-name="Path 409" class="cls-1" d="M87.734,70.187V26.2h6.008V91.784H17.81V75.533a50.751,50.751,0,0,0,24.85,6.15c13.034,0,24.6-4.412,31.816-11.236" transform="translate(2.368 -17.306)"/>
+    <line id="Line_21" data-name="Line 21" class="cls-1" x2="9.155" transform="translate(4.518 8.705)"/>
+    <line id="Line_22" data-name="Line 22" class="cls-1" x2="9.155" transform="translate(4.518 14.418)"/>
+    <line id="Line_23" data-name="Line 23" class="cls-1" x2="9.155" transform="translate(4.518 20.13)"/>
+    <line id="Line_24" data-name="Line 24" class="cls-1" x2="9.155" transform="translate(4.518 63.053)"/>
+    <line id="Line_25" data-name="Line 25" class="cls-1" x2="9.155" transform="translate(4.518 68.753)"/>
+    <line id="Line_26" data-name="Line 26" class="cls-1" x2="9.155" transform="translate(4.518 74.466)"/>
+  </g>
+</svg>
