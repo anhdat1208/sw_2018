@@ -48,7 +48,6 @@ class OurServiceController extends Controller
                 break;
         }
 
-        // return view('web.our_service.' . $view);
         return view('web.our_service.detail', compact('view'));
     }
 }
