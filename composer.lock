@@ -4,70 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e851743eae7c16fc9cf453eabc076da7",
+    "content-hash": "66ca7343889332c2b8ecca11c251430c",
     "packages": [
-        {
-            "name": "alexjoffroy/laravel-localization",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/alexjoffroy/laravel-localization.git",
-                "reference": "ed3b10463e0373698523fef78b44c4001b372ee0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/alexjoffroy/laravel-localization/zipball/ed3b10463e0373698523fef78b44c4001b372ee0",
-                "reference": "ed3b10463e0373698523fef78b44c4001b372ee0",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.1"
-            },
-            "require-dev": {
-                "orchestra/testbench": "~3.5.0|~3.6.0",
-                "phpunit/phpunit": "^6.3|^7.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "AlexJoffroy\\Localization\\LocalizationServiceProvider"
-                    ],
-                    "aliases": {
-                        "Localization": "AlexJoffroy\\Localization\\Facades\\Localization"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "AlexJoffroy\\Localization\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Alex Joffroy",
-                    "email": "hello@alexjoffroy.me",
-                    "homepage": "https://alexjoffroy.me",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A Laravel package to handle localization with ease",
-            "homepage": "https://github.com/alexjoffroy/laravel-localization",
-            "keywords": [
-                "alexjoffroy",
-                "lang",
-                "laravel",
-                "laravel-localization",
-                "localization",
-                "php",
-                "route"
-            ],
-            "time": "2018-03-04T18:28:58+00:00"
-        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",
