@@ -27,11 +27,11 @@
                         <a class="nav-link @yield('clients_active')" href="clients.php">{{ __('menus.clients') }}</a>
                     </li>
                     <li class="nav-item p-0">
-                        <a class="nav-link @yield('contact_active')" href="">{{ __('menus.contact_us') }}</a>
+                        <a class="nav-link @yield('contact_active')" href="{{ translate_route('contact.index') }}">{{ __('menus.contact_us') }}</a>
                     </li>
                     <li class="dropdown nav-item">
                         <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-                          <i class="fa fa-cogs d-lg-none d-xl-none"></i> {{ strtoupper(app()->getLocale()) }}
+                            <i class="fa fa-cogs d-lg-none d-xl-none"></i> {{ strtoupper(app()->getLocale()) }}
                         </a>
                         <div class="dropdown-menu dropdown-with-icons">
                             <a href="" class="dropdown-item @if(app()->getLocale() == 'en') d-none @endif">

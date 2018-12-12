@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="{{ app()->getLocale() }}">
-@php $l10n = app('localization') @endphp
 @include('web.layouts.head')
 <body>
     <div class="@yield('wrapper-class')">

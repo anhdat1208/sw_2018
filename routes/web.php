@@ -14,6 +14,7 @@ Route::group(['namespace' => 'Web'], function () {
     Route::get('/', 'HomeController@index')->name('home');
     Route::get('/services.html', 'OurServiceController@index')->name('services.index');
     Route::get('/contact.html', 'ContactController@index')->name('contact.index');
+    Route::post('/contact/send', 'ContactController@send')->name('contact.send');
 });
 
 $currentLocale = app()->getLocale();

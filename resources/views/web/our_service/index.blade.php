@@ -14,49 +14,34 @@
                         <div class="tab-content wow fadeInRight" id="v-pills-tabContent">
                             <div class="tab-pane show active" id="v-digital">
                                 <div class="tab-lead">
-                                    <p>By crossing your business issues with the habits of online consumer and new
-                                        digital trends, we imagine concepts and tools that connect your brand with your
-                                        target.</p>
+                                    <p>By crossing your business issues with the habits of online consumer and new digital trends, we imagine concepts and tools that connect your brand with your target.</p>
                                 </div>
                                 <div class="text-right">
                                     <a href=""
                                        class="btn btn-sm btn-primary">Discover</a>
                                 </div>
                             </div>
-                            <div class="tab-pane  " id="v-web">
+                            <div class="tab-pane" id="v-web">
                                 <div class="tab-lead">
-                                    <p>Our team will assist you in setting up your strategy, from design until the
-                                        realization of your tools and supports.<br>
-                                        The visual identity and graphic designs of a website are the first elements that
-                                        visitors see when they browse your Website. The design should catch the eye to
-                                        keep and retain visitors. This is the first big important step in developing a
-                                        digital strategy.</p>
+                                    <p>Our team will assist you in setting up your strategy, from design until the realization of your tools and supports.<br> The visual identity and graphic designs of a website are the first elements that visitors see when they browse your Website. The design should catch the eye to keep and retain visitors. This is the first big important step in developing a digital strategy.</p>
                                 </div>
                                 <div class="text-right">
                                     <a href=""
                                        class="btn btn-sm btn-primary">Discover</a>
                                 </div>
                             </div>
-                            <div class="tab-pane  " id="v-pills-messages">
+                            <div class="tab-pane" id="v-pills-messages">
                                 <div class="tab-lead">
-                                    <p>We give life to your projects and we support you in the daily management and
-                                        growth of your Website.<br>
-                                        The website has become an essential part of company communication: it allows
-                                        presenting their offers, services, products, or simply communicating on their
-                                        brand or company.</p>
+                                    <p>We give life to your projects and we support you in the daily management and growth of your Website.<br> The website has become an essential part of company communication: it allows presenting their offers, services, products, or simply communicating on their brand or company.</p>
                                 </div>
                                 <div class="text-right">
                                     <a href=""
                                        class="btn btn-sm btn-primary">Discover</a>
                                 </div>
                             </div>
-                            <div class="tab-pane  " id="v-custom-dev">
+                            <div class="tab-pane" id="v-custom-dev">
                                 <div class="tab-lead">
-                                    <p>If the solutions “ready to go” are suitable for certain customers, they do not
-                                        natively handle the issues specific to your business and even less those
-                                        involving specific features. This is why we offer a custom web development
-                                        solution to expand the range of possibilities for you to implement almost all
-                                        the features you could want or imagine.</p>
+                                    <p>If the solutions “ready to go” are suitable for certain customers, they do not natively handle the issues specific to your business and even less those involving specific features. This is why we offer a custom web development solution to expand the range of possibilities for you to implement almost all the features you could want or imagine.</p>
                                 </div>
                                 <div class="text-right">
                                     <a href=""
@@ -64,18 +49,14 @@
                                 </div>
                             </div>
                             <div class="tab-pane  " id="v-search">
-                                <p class="tab-lead">Silkwires considers systematically the “SEO” into the projects
-                                    conducted for clients. The website tree and structure of HTML code are developed
-                                    with a commitment to facilitating the work of indexing by search engines.</p>
+                                <p class="tab-lead">Silkwires considers systematically the “SEO” into the projects conducted for clients. The website tree and structure of HTML code are developed with a commitment to facilitating the work of indexing by search engines.</p>
                                 <div class="text-right">
                                     <a href=""
                                        class="btn btn-sm btn-primary">Discover</a>
                                 </div>
                             </div>
                             <div class="tab-pane  " id="v-team">
-                                <p class="tab-lead">Notre métier est de concevoir et mettre en œuvre des solutions
-                                    d’externalisation en développement web à taille humaine, établies sur mesure pour
-                                    nos clients.</p>
+                                <p class="tab-lead">Notre métier est de concevoir et mettre en œuvre des solutions d’externalisation en développement web à taille humaine, établies sur mesure pour nos clients.</p>
                                 <div class="text-right">
                                     <a href=""
                                        class="btn btn-sm btn-primary">Discover</a>

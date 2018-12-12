@@ -96,32 +96,6 @@ return [
 
     'fallback_locale' => 'en',
 
-    /**
-     * Settings for Localization
-     */
-    // 'default_locale' => config('app.fallback_locale'),
-    // 'supported_locales' => [
-    //     'en' => [
-    //         'native' => 'English',
-    //         'regional_code' => 'en_GB',
-    //         'charset' => 'UTF-8',
-    //         'constants' => ['LC_TIME'],
-    //     ],
-    //     'fr' => [
-    //         'native' => 'Français',
-    //         'regional_code' => 'fr_FR',
-    //         'charset' => 'UTF-8',
-    //         'constants' => ['LC_TIME'],
-    //     ],
-    //     'de' => [
-    //         'native' => 'Tiếng Việt',
-    //         'regional_code' => 'de_DE',
-    //         'charset' => 'UTF-8',
-    //         'constants' => ['LC_ALL'],
-    //     ],
-    // ],
-    // 'hide_default_locale_in_url' => true,
-
     /*
     |--------------------------------------------------------------------------
     | Faker Locale

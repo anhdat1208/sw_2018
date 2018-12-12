@@ -1,7 +1,7 @@
 <div class="form-contact" id="contactForm">
     <button class="close-button" onclick="toggleContact()"><span class="lnr lnr-arrow-left"></span></button>
     <p class="mb-4">{{ __('contact.subtitle') }}</p>
-    <form class="form-default contact-form" action="" method="post">
+    <form class="form-default contact-form" action="{{ route('contact.send') }}" method="post">
         {{ csrf_field() }}
         <div class="form-group">
             <label for="inputCompany">{{ __('contact.label.company') }}</label>
