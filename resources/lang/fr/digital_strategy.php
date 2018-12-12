@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'title_detail' => "DIGITAL STRATEGY",
-    'heading' => "BOOST YOUR IMAGE ON DIGITAL MEDIA !",
-    'text_lead' => "Silkwires offers total support in the digital strategy for your brand or product. Starting with the definition of positioning, graphic design, features and tools that will be needed to achieve your goals.",
-    'content' => "At the age of new technology, the pervasiveness of the Internet, the emergence of mobile technologies, good communication must be global to reach a wider audience: be visible, known and recognized from any media support. Deploy a digital communication is also essential to provide every opportunity to attract maximum number of customers. <br> <br> However, the implementation of the digital communication plan requires a strategic reflection phase. From the definition of needs to the implementation of custom solutions, Silkwires supports and advise you throughout the steps. Featuring a team of professionals in each strategic area (web development, mobile, web marketing and graphic design), Silkwires is able to drive all of your digital communications.",
+    'title_detail' => "STRATÉGIE DIGITALE",
+    'heading' => "DOPER VOTRE IMAGE SUR LES MEDIAS NUMÉRIQUES !",
+    'text_lead' => "Silkwires propose un accompagnement total dans la stratégie digitale de votre marque ou produit. En commençant par la définition du positionnement, la charte graphique, les fonctionnalités et des outils qui seront nécessaires à la réalisation de vos objectifs.",
+    'content' => "A l'heure des nouvelles technologies, de l'omniprésence d'Internet, de l'émergence des technologies mobiles, une bonne communication se doit d'être globale pour toucher un public toujours plus large : il s’agit d’être visible, connu et reconnu, et ce, depuis n'importe quel support de communication. Déployer une communication digitale est aussi primordial pour se donner toutes les chances d'attirer un maximum de clients. <br> <br> Néanmoins, la mise en place d’un plan de communication digitale nécessite une phase de réflexion stratégique. De la définition des besoins à la mise en place de solutions sur mesure, l'agence Silkwires vous accompagne et vous conseille tout au long de la prestation. Dotée d’une équipe de professionnels dans chaque domaine stratégique (développement web, mobile, webmarketing et création graphique), Silkwires est capable de piloter l'ensemble de votre communication digitale.",
 ];

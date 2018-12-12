@@ -38,7 +38,7 @@ class OurServiceController extends Controller
             case 'toi-uu-hoa-tim-kiem-seo':
             case 'search-engine-optimization-seo':
             case 'referencement-naturel-seo':
-                $view = 'seo';
+                $view = 'service_seo';
                 break;
             case 'dedicated-team':
                 $view = 'dedicated_team';
@@ -48,6 +48,7 @@ class OurServiceController extends Controller
                 break;
         }
 
-        return view('web.our_service.' . $view);
+        // return view('web.our_service.' . $view);
+        return view('web.our_service.detail', compact('view'));
     }
 }

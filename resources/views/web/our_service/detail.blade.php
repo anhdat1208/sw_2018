@@ -10,15 +10,15 @@
         <div class="section-full-vh bg-service-detail">
             <div class="container-fluid">
                 <div class="detail-ctn">
-                    <h2 class="title-detail">{{ __('custom_development_software.title_detail') }}</h2>
+                    <h2 class="title-detail">{{ __($view . '.title_detail') }}</h2>
                     <div class="detail-card">
-                        <a class="btn-back" href=""><i class="lnr lnr-cross"></i></a>
-                        <h3 class="text-heading">{{ __('custom_development_software.heading') }}</h3>
+                        <a class="btn-back" href="{{ translate_route('services.index') }}"><i class="lnr lnr-cross"></i></a>
+                        <h3 class="text-heading">{{ __($view . '.heading') }}</h3>
                         <div class="text-lead">
-                            <p>{{ __('custom_development_software.text_lead') }}</p>
+                            <p>{{ __($view . '.text_lead') }}</p>
                         </div>
                         <div class="text-body">
-                            <p>{!! __('custom_development_software.content') !!}</p>
+                            <p>{!! __($view . '.content') !!}</p>
                         </div>
                     </div>
                 </div>
