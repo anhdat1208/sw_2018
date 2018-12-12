@@ -8,5 +8,6 @@ return [
     'contact_us' => 'contact us',
     'read_more' => 'read more',
     'clients' => 'clients',
-    'address' => '37 Ky Con, Ward Nguyen Thai Binh, District 1, Ho Chi Minh City, Vietnam'
+    'address' => '37 Ky Con, Ward Nguyen Thai Binh, District 1, Ho Chi Minh City, Vietnam',
+    'discover' => 'Discover',
 ];

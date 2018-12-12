@@ -1,6 +1,22 @@
 <?php
 
 return [
+    'slugs' => [
+        'digital_strategy' => 'strategie-digitale',
+        'web_graphic_design' => 'web-graphic-design',
+        'web_development' => 'developpement-site-web',
+        'custom_development_software' => 'solution-sur-mesure',
+        'seo' => 'referencement-naturel-seo',
+        'dedicated_team' => 'dedicated-team',
+    ],
+    'tabs' => [
+        'digital_strategy' => "En croisant vos problèmes commerciaux avec les habitudes des consommateurs en ligne et les nouvelles tendances numériques, nous imaginons des concepts et des outils qui connectent votre marque à votre cible.",
+        'web_graphic_design' => "Notre équipe vous assistera dans la mise en place de votre stratégie, de la conception à la réalisation de vos outils et supports. <br/>L'identité visuelle et la conception graphique d'un site Web sont les premiers éléments que les visiteurs voient lorsqu'ils naviguent sur votre site Web. La conception doit attirer l'attention pour garder et fidéliser les visiteurs. C’est la première étape importante dans l’élaboration d’une stratégie numérique.",
+        'web_development' => "Nous donnons vie à vos projets et nous vous accompagnons dans la gestion quotidienne et la croissance de votre site Web. <br/>Le site Web est devenu un élément essentiel de la communication d’une entreprise: il permet de présenter ses offres, ses services, ses produits ou tout simplement de communiquer sur sa marque ou son entreprise.",
+        'custom_development_software' => "Si les solutions «prêtes à l'emploi» conviennent à certains clients, elles ne traitent pas de manière native les problèmes spécifiques à votre entreprise et encore moins ceux impliquant des fonctionnalités spécifiques. C'est pourquoi nous proposons une solution de développement Web personnalisée pour élargir l'éventail des possibilités permettant de mettre en œuvre presque toutes les fonctionnalités souhaitées ou imaginables.",
+        'seo' => "Silkwires considère systématiquement le «référencement» dans les projets menés pour le compte de clients. L’arborescence et la structure du code HTML du site Web sont élaborées dans le but de faciliter le travail d’indexation par les moteurs de recherche.",
+        'dedicated_team' => "Notre métier est de concevoir et mettre en œuvre des solutions d’externalisation en développement web à taille humaine, établies sur mesure pour nos clients.",
+    ],
     'title' => 'Nos services',
     'software_custom_development_heading' => "Développement Sur Mesure - Logiciel",
     'software_custom_development_content' => "Quel que soit l’outil ou les fonctionnalités dont vous avez besoin, notre chef de projet et l'équipe de développement utiliseront les dernières technologies innovantes afin de mener à bien votre projet dans les temps.",

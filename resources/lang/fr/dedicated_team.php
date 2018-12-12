@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'title_detail' => "DEDICATED TEAM",
-    'heading' => "ANALYTICS, SEARCH ENGINE OPTIMIZATION",
-    'text_lead' => "Silkwires considers systematically the “SEO” into the projects conducted for clients. The website tree and structure of HTML code are developed with a commitment to facilitating the work of indexing by search engines.",
+    'title_detail' => "ÉQUIPE DÉDIÉE",
+    'heading' => "",
+    'text_lead' => "Notre métier est de concevoir et mettre en œuvre des solutions d’externalisation en développement web à taille humaine, établies sur mesure pour nos clients.",
     'content' => "",
 ];

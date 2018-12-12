@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'title_detail' => "CUSTOM DEVELOPMENT - SOFTWARE",
+    'title_detail' => "DÉVELOPPEMENT SUR MESURE - LOGICIEL",
     'heading' => "CUSTOM SOLUTIONS",
-    'text_lead' => "If the solutions “ready to go” are suitable for certain customers, they do not natively handle the issues specific to your business and even less those involving specific features. This is why we offer a custom web development solution to expand the range of possibilities for you to implement almost all the features you could want or imagine.",
-    'content' => "The establishment of interactive communication media involves a phase of software development in order to bring them into visual form language that makes them available on the web. <br> <br> Several languages and tools may be required (HTML, XHTML, CSS, PHP, AJAX, JAVASCRIPT ...) and very often it will also set up databases (ex: MySQL).",
+    'text_lead' => "Si les solutions clés-en-main conviennent à certains clients, elles ne permettent pas de gérer nativement les problématiques propres à votre activité et encore moins celles qui impliquent des fonctionnalités spécifiques. C'est pour cela que nous vous proposons un développement web sur mesure afin d'élargir le champ des possibilités pour vous permettre d'implémenter quasiment toutes les fonctionnalités que vous pourriez souhaiter ou imaginer.",
+    'content' => "La mise en place de supports de communication interactifs implique une phase de développement informatique afin de traduire leur forme visuelle en un langage qui les rendra accessibles sur la toile. <br> <br> Plusieurs langages et outils pourront être nécessaires (HTML, XHTML, CSS, PHP, AJAX, JAVASCRIPT …) et très souvent il faudra également mettre en place des bases de données (ex.: MySql).",
 ];
