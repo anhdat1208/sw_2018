@@ -16,7 +16,8 @@ class Localization
      */
     public function handle($request, Closure $next)
     {
-        $locale = $request->segment(1, '');
+        $locale = \Session::has('current_locale') ? \Session::get('current_locale') : $request->segment(1, '');
+        // $locale = \Session::has('current_locale') ? \Session::get('current_locale') : '';
         if (in_array($locale, ['en', 'fr', 'vi'])) {
             app()->setLocale($locale);
         }

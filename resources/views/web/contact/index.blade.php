@@ -74,7 +74,7 @@
             }
         });
         var contentString = '<div class="map-info-box">' +
-        '<div class="map-head">' + '<h3><img src="{{ asset('web/images/LogoSilkWires.svg') }}" alt="Silkwires digital agency"></h3></div>' + '<div class="map-body">' + '<p class="map-address"><span class="lnr lnr-map-marker"></span>{!! __('contact.address') !!}</p> <p><span class="lnr lnr-phone-handset"></span>(+84-8) 35 03 45 88 </p><p class="map-email"><span class="lnr lnr-envelope"></span> info@silkwires.com </p>' + '<div><button onclick="toggleContact()" id="button-contact" class="btn btn-sm btn-outline-secondary">{{ strtoupper(__('contact.title')) }}</button></div></div> </div>';
+        '<div class="map-head">' + '<h3><img src="{{ asset('web/images/LogoSilkWires.svg') }}" alt="Silkwires digital agency"></h3></div>' + '<div class="map-body">' + '<p class="map-address"><span class="lnr lnr-map-marker"></span>{!! __('contact.address') !!}</p> <p><span class="lnr lnr-phone-handset"></span>(+84-8) 35 03 45 88 </p><p class="map-email"><span class="lnr lnr-envelope"></span> info@silkwires.com </p>' + '<div><button onclick="toggleContact()" id="button-contact" class="btn btn-sm btn-outline-secondary">{{ mb_strtoupper(__('contact.title')) }}</button></div></div> </div>';
        
         var infowindow = new google.maps.InfoWindow({
             content: contentString
