@@ -34,13 +34,13 @@
                             <i class="fa fa-cogs d-lg-none d-xl-none"></i> {{ strtoupper(app()->getLocale()) }}
                         </a>
                         <div class="dropdown-menu dropdown-with-icons">
-                            <a href="" class="dropdown-item @if(app()->getLocale() == 'en') d-none @endif">
+                            <a href="{{ route('change_language.index', ['lang' => 'en']) }}" class="dropdown-item @if(app()->getLocale() == 'en') d-none @endif">
                                 <i class="tim-icons icon-paper"></i> EN
                             </a>
-                            <a href="" class="dropdown-item @if(app()->getLocale() == 'vi') d-none @endif">
+                            <a href="{{ route('change_language.index', ['lang' => 'vi']) }}" class="dropdown-item @if(app()->getLocale() == 'vi') d-none @endif">
                                 <i class="tim-icons icon-bullet-list-67"></i> VI
                             </a>
-                            <a href="" class="dropdown-item @if(app()->getLocale() == 'fr') d-none @endif">
+                            <a href="{{ route('change_language.index', ['lang' => 'fr']) }}" class="dropdown-item @if(app()->getLocale() == 'fr') d-none @endif">
                                 <i class="tim-icons icon-bullet-list-67"></i> FR
                             </a>
                         </div>

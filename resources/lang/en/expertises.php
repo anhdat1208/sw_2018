@@ -18,7 +18,7 @@ return [
     'responsive_website' => 'Responsive website (web, mobile, tablette)',
     'cms' => 'CMS (WordPress, Drupal, Joomla)',
     'accessibility' => 'Accessibility',
-    'custom_web_development' => 'Custom web development - Software (DMS - Digital Marketing Software)',
+    'custom_web_development' => 'Custom web development - Software',
     'ergonomics' => 'Ergonomics',
     'technical_functional' => 'Technical and Functional Specifications',
     'web_design' => 'Web design',

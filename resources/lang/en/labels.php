@@ -2,6 +2,8 @@
 
 return [
     'company_name' => "Silkwires digital agency",
+    'home_banner' => "Make your dreams come true",
+    'home_sub_banner' => "Combine creative design & new high technologies to create innovative digital support of communication and marketing as well as tailor-made software.",
     'agency' => 'the agency',
     'our_services' => 'our services',
     'clients' => 'clients',

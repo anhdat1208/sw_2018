@@ -17,7 +17,7 @@ return [
     'ecommerce_website' => 'Sites e-commerce « Prestashop »',
     'responsive_website' => 'Sites « responsive » (web, mobile, tablette)',
     'accessibility' => 'Accessibilité',
-    'custom_web_development' => 'Développement sur mesure de dispositif online - Logiciel (DMS - Digital Marketing Software)',
+    'custom_web_development' => 'Développement sur mesure de dispositif online - Logiciel',
     'ergonomics' => 'Ergonomie',
     'technical_functional' => 'Spécifications techniques et fonctionnelles',
     'web_design' => 'Web design',
