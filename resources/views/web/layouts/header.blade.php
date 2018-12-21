@@ -24,7 +24,7 @@
                         <a class="nav-link @yield('services_active')" href="{{ translate_route('services.index') }}">{{ __('menus.services') }}</a>
                     </li>
                     <li class="nav-item p-0">
-                        <a class="nav-link @yield('clients_active')" href="clients.php">{{ __('menus.clients') }}</a>
+                        <a class="nav-link @yield('clients_active')" href="#">{{ __('menus.clients') }}</a>
                     </li>
                     <li class="nav-item p-0">
                         <a class="nav-link @yield('contact_active')" href="{{ translate_route('contact.index') }}">{{ __('menus.contact_us') }}</a>

@@ -41,6 +41,7 @@ class OurServiceController extends Controller
                 $view = 'service_seo';
                 break;
             case 'dedicated-team':
+            case 'doi-ngu':
                 $view = 'dedicated_team';
                 break;
             default:
