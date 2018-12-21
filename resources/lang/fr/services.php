@@ -28,6 +28,6 @@ return [
     'digital_strategy_content' => "En croisant vos problématiques avec les habitudes de consommation online des internautes et les nouvelles tendances digitales, nous imaginons des concepts et des outils qui connecteront votre marque avec vos cibles.",
     'seo_heading' => "Référencement Naturel – SEO",
     'seo_content' => "Pour qu’un site soit visité, il doit être trouvé. Et pour être trouvé, il doit respecter un certain nombre de règles tant sémantiques que techniques.",
-    'dedicated_team_heading' => 'Dedicated Team',
+    'dedicated_team_heading' => 'Équipe Dédiée',
     'dedicated_team_content' => "Notre métier est de concevoir et mettre en œuvre des solutions d’externalisation en développement web à taille humaine, établies sur mesure pour nos clients.",
 ];

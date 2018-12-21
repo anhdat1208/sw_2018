@@ -60,8 +60,8 @@
             name: 'Silkwires Style'
         });
         var uluru = {
-            lat: 10.7663774,
-            lng: 106.6964865
+            lat: 10.766300,
+            lng: 106.699214
         };
         var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 16,
