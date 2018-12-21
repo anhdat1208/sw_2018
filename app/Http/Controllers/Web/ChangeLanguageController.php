@@ -15,8 +15,8 @@ class ChangeLanguageController extends Controller
             $redirectUrl = '';
         }
         // FIXME: End 20/12/2018 Company
-        return dump(\URL::previous());
-        return route(app('router')->getRoutes()->match(app('request')->create(\URL::previous()))->getName());
+        // return dump(\URL::previous());
+        // return route(app('router')->getRoutes()->match(app('request')->create(\URL::previous()))->getName());
         return redirect()->back();
     }
 }

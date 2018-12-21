@@ -6,7 +6,7 @@ return [
     'realization' => 'RÉALISATION',
     'web_marketing' => 'WEBMARKETING, SPÉCIALISTE DU SEO',
     'digital_strategy' => 'STRATÉGIE DIGITALE',
-    'audit' => 'Ergonomie',
+    'audit' => 'Audit',
     'brand_strategy_positioning' => 'Stratégie de marque et positionnement',
     'social_media_strategy' => 'Stratégie médias sociaux',
     'launch_products_strategy' => 'Stratégie lancement de produits',

@@ -15,13 +15,13 @@
 
                     <div class="uix-tabs__content  wow fadeIn active">
                         <div class="uix-list-style">
-                            <p>{{ __('expertises.audit') }}</p>
-                            <p>{{ __('expertises.brand_strategy_positioning') }}</p>
-                            <p>{{ __('expertises.social_media_strategy') }}</p>
-                            <p>{{ __('expertises.launch_products_strategy') }}</p>
-                            <p>{{ __('expertises.content_strategy') }}</p>
-                            <p>{{ __('expertises.interactive_marketing') }}</p>
-                            <p>{{ __('expertises.lead_customer') }}</p>
+                            <p>{{ __('expertises.ergonomics') }}</p>
+                            <p>{{ __('expertises.technical_functional') }}</p>
+                            <p>{{ __('expertises.web_design') }}</p>
+                            <p>{{ __('expertises.graphic_editorial') }}</p>
+                            <p>{{ __('expertises.html_css') }}</p>
+                            <p>{{ __('expertises.php_mysql') }}</p>
+                            <p>{{ __('expertises.javascript_ajax_jquery') }}</p>
                         </div>
                     </div>
                     <div class="uix-tabs__content">
@@ -37,23 +37,23 @@
                     <!-- /end tab 2 -->
                     <div class="uix-tabs__content">
                         <div class="uix-list-style">
-                            <p>{{ __('expertises.ergonomics') }}</p>
-                            <p>{{ __('expertises.technical_functional') }}</p>
-                            <p>{{ __('expertises.web_design') }}</p>
-                            <p>{{ __('expertises.graphic_editorial') }}</p>
-                            <p>{{ __('expertises.html_css') }}</p>
-                            <p>{{ __('expertises.php_mysql') }}</p>
-                            <p>{{ __('expertises.javascript_ajax_jquery') }}</p>
-                        </div>
-                    </div>
-                    <!-- /end tab 3 -->
-                    <div class="uix-tabs__content">
-                        <div class="uix-list-style">
                             <p>{{ __('expertises.seo') }}</p>
                             <p>{{ __('expertises.sea') }}</p>
                             <p>{{ __('expertises.web_analytics') }}</p>
                             <p>{{ __('expertises.social_media_marketing') }}</p>
                             <p>{{ __('expertises.affiliate_campaign') }}</p>
+                        </div>
+                    </div>
+                    <!-- /end tab 3 -->
+                    <div class="uix-tabs__content">
+                        <div class="uix-list-style">
+                            <p>{{ __('expertises.audit') }}</p>
+                            <p>{{ __('expertises.brand_strategy_positioning') }}</p>
+                            <p>{{ __('expertises.social_media_strategy') }}</p>
+                            <p>{{ __('expertises.launch_products_strategy') }}</p>
+                            <p>{{ __('expertises.content_strategy') }}</p>
+                            <p>{{ __('expertises.interactive_marketing') }}</p>
+                            <p>{{ __('expertises.lead_customer') }}</p>
                         </div>
                     </div>
                     <!-- /end tab 4 -->
