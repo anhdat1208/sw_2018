@@ -17,6 +17,7 @@ return [
         'seo' => "Silkwires considère systématiquement le «référencement» dans les projets menés pour le compte de clients. L’arborescence et la structure du code HTML du site Web sont élaborées dans le but de faciliter le travail d’indexation par les moteurs de recherche.",
         'dedicated_team' => "Notre métier est de concevoir et mettre en œuvre des solutions d’externalisation en développement web à taille humaine, établies sur mesure pour nos clients.",
     ],
+    'seo_title' => "Agence de communication digitale Silkwires - Nos services",
     'title' => 'Nos services',
     'software_custom_development_heading' => "Développement Sur Mesure - Logiciel",
     'software_custom_development_content' => "Quel que soit l’outil ou les fonctionnalités dont vous avez besoin, notre chef de projet et l'équipe de développement utiliseront les dernières technologies innovantes afin de mener à bien votre projet dans les temps.",

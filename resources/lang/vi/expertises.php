@@ -17,7 +17,7 @@ return [
     'ecommerce_website' => 'Web bán hàng « Prestashop »',
     'responsive_website' => 'Web đa ứng dụng (PC, di động, máy tính bảng)',
     'accessibility' => 'Accessibility',
-    'custom_web_development' => 'Phát triển công cụ trực tuyến – Phần mềm ứng dụng (DMS - Digital Marketing)',
+    'custom_web_development' => 'Phát triển công cụ trực tuyến – Phần mềm ứng dụng',
     'ergonomics' => 'Tối ưu hoá giao diện người dùng',
     'technical_functional' => 'Kỹ thuật & chức năng đặc biệt',
     'web_design' => 'Thiết kế web',
