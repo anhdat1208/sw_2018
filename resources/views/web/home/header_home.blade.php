@@ -34,14 +34,28 @@
                           <i class="fa fa-cogs d-lg-none d-xl-none"></i> {{ strtoupper(app()->getLocale()) }}
                         </a>
                         <div class="dropdown-menu dropdown-with-icons">
-                            <a href="{{ route('language.handle', ['lang' => 'en']) }}" class="dropdown-item @if(app()->getLocale() == 'en') d-none @endif">
+                            {{-- <a href="{{ route('language.handle', ['lang' => 'en']) }}" class="dropdown-item @if(app()->getLocale() == 'en') d-none @endif">
                                 <i class="tim-icons icon-paper"></i> EN
                             </a>
                             <a href="{{ route('language.handle', ['lang' => 'vi']) }}" class="dropdown-item @if(app()->getLocale() == 'vi') d-none @endif">
                                 <i class="tim-icons icon-bullet-list-67"></i> VI
-                            </a>
-                            <a href="{{ route('language.handle', ['lang' => 'fr']) }}" class="dropdown-item @if(app()->getLocale() == 'fr') d-none @endif">
+                            </a> --}}
+                            {{-- <a href="{{ route('language.handle', ['lang' => 'fr']) }}" class="dropdown-item @if(app()->getLocale() == 'fr') d-none @endif">
                                 <i class="tim-icons icon-bullet-list-67"></i> FR
+                            </a> --}}
+
+                            {{-- <a href="{{ route('language.handle', ['lang' => 'en', 'route' => \Route::currentRouteName(), 'params' => \Route::current()->parameters()]) }}" class="dropdown-item @if(app()->getLocale() == 'en') d-none @endif">
+                                <i class="tim-icons icon-bullet-list-67"></i> EN
+                            </a>
+                            <a href="{{ route('language.handle', ['lang' => 'fr', 'route' => \Route::currentRouteName(), 'params' => \Route::current()->parameters()]) }}" class="dropdown-item @if(app()->getLocale() == 'fr') d-none @endif">
+                                <i class="tim-icons icon-bullet-list-67"></i> FR
+                            </a> --}}
+
+                            <a href="javascript:void(0)" class="dropdown-item @if(app()->getLocale() == 'fr') d-none @endif" onclick="change_language_to('fr')">
+                                <i class="tim-icons icon-bullet-list-67"></i> FR
+                            </a>
+                            <a href="javascript:void(0)" class="dropdown-item @if(app()->getLocale() == 'en') d-none @endif" onclick="change_language_to('en')">
+                                <i class="tim-icons icon-bullet-list-67"></i> EN
                             </a>
                         </div>
                     </li>

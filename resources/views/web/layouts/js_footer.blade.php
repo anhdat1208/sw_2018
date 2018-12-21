@@ -12,3 +12,24 @@
 <script type="text/javascript" src="{{ asset('web/js/interact.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('web/js/custom.js') }}"></script>
 <script type="text/javascript" src="{{ asset('web/js/main.js') }}"></script>
+<script type="text/javascript">
+    function change_language_to(language) {
+        var current_route_name = '{{ \Route::currentRouteName() }}',
+            current_action = '{{ \Route::getCurrentRoute()->getActionName() }}',
+            route_params = {!! json_encode(\Route::current()->parameters()) !!};
+        $.ajax({
+            url: '{{ route('language.handle') }}',
+            type: 'post',
+            data: {
+                lang: language,
+                route_name: current_route_name,
+                params: route_params,
+                action_name: current_action,
+                _token: '{{ csrf_token() }}',
+            },
+            dataType: 'text',
+        }).done(function(resp) {
+            console.log(resp);
+        });
+    }
+</script>

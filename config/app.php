@@ -82,6 +82,7 @@ return [
 
     'locale' => 'en',
     'locales' => ['en', 'vi', 'fr'],
+    'alt_locales' => ['vi', 'fr'],
     'locale_prefix' => '',
 
     /*

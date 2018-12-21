@@ -22,7 +22,6 @@ class OurServiceController extends Controller
                 break;
             case 'thiet-ke-da-phuong-tien':
             case 'web-graphic-design':
-            case 'web-graphic-design':
                 $view = 'web_graphic_design';
                 break;
             case 'lap-trinh-thiet-ke-web':
