@@ -4,9 +4,9 @@ namespace App\Http\Controllers\Web;
 
 use App\Http\Controllers\Controller;
 
-class ChangeLanguageController extends Controller
+class LanguageController extends Controller
 {
-    public function index($lang = '')
+    public function handle($lang = '')
     {
         // $oldLocale = app()->getLocale();
         // $previousRouteName = app('router')->getRoutes()->match(app('request')->create(\URL::previous()))->getName();

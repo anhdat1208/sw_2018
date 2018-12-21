@@ -29,5 +29,5 @@ return [
     'seo_heading' => 'Search engine optimization (seo)',
     'seo_content' => 'For a Website to be visited, it must be found. And to be found, it must comply with both semantic and technical rules.',
     'dedicated_team_heading' => 'Dedicated Team',
-    'dedicated_team_content' => 'Notre métier est de concevoir et mettre en œuvre des solutions d’externalisation en développement web à taille humaine, établies sur mesure pour nos clients.',
+    'dedicated_team_content' => 'Our job is to design and implement outsourcing solutions in web development on a human scale, tailor-made for our clients.',
 ];
