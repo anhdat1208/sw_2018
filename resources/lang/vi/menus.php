@@ -2,7 +2,7 @@
 
 return [
     'agency' => 'giới thiệu',
-    'services' => 'dịch vụ',
+    'services' => 'Dịch Vụ',
     'clients' => 'khách hàng',
     'contact_us' => 'liên hệ',
 ];

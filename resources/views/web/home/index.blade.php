@@ -1,6 +1,6 @@
 @extends('web.layouts.app')
 
-@section('title', 'Silkwires digital agency - Web agency')
+@section('title', __('labels.company_name'))
 
 @section('wrapper-class', 'wp-page page-index')
 

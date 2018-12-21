@@ -8,7 +8,7 @@ return [
     ],
     'url' => [
         'contact' => '/contactez-nous.html',
-        'service' => '/notre-services.html',
+        'service' => '/nos-services.html',
         'digital_strategy' => '/strategie-digitale.html',
     ]
 ];

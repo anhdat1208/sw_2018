@@ -1,6 +1,6 @@
 @extends('web.layouts.app')
 
-@section('title', __('services.digital_strategy_heading'))
+@section('title', "Agence de communication digitale Silkwires - " . __('services.digital_strategy_heading'))
 
 @section('wrapper-class', 'wp-page page-full-height wide')
 

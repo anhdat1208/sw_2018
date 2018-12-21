@@ -17,6 +17,7 @@ return [
         'seo' => "Silkwires considers systematically the “SEO” into the projects conducted for clients. The website tree and structure of HTML code are developed with a commitment to facilitating the work of indexing by search engines.",
         'dedicated_team' => "Our job is to design and implement outsourcing solutions in web development on a human scale, tailor-made for our clients.",
     ],
+    'seo_title' => "Silkwires Digital agency - Our Services",
     'title' => 'Our Services',
     'software_custom_development_heading' => 'Software - custom development',
     'software_custom_development_content' => 'Whatever tools or functionalities you need, our project manager and the development team will use the latest innovative technologies to complete your project on time.',

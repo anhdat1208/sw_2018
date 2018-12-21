@@ -1,6 +1,6 @@
 @extends('web.layouts.app')
 
-@section('title', __('services.title'))
+@section('title', __('services.seo_title'))
 
 @section('wrapper-class', 'wp-page page-full-height wide')
 
