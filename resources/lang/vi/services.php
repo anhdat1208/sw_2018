@@ -29,6 +29,6 @@ return [
     'digital_strategy_content' => 'Bằng cách liên kết những vấn đề quan tâm bởi doanh nghiệp với thói quen sử dụng Internet và các xu hướng kỹ thuật số mới, chúng tôi xây dựng các khái niệm cũng như những công cụ cho phép kết nối hiệu quả giữa thương hiệu với các đối tượng khách hàng mục tiêu.',
     'seo_heading' => 'Tối ưu hóa tìm kiếm - SEO',
     'seo_content' => 'Để một trang web được mọi người biết đến, nghĩa là phải được tìm thấy. Và để được tìm thấy dễ dàng, cần phải đáp ứng một số quy tắc ngữ nghĩa và những kỹ thuật tối ưu hoá tìm kiếm đặc biệt.',
-    'dedicated_team_heading' => 'Dedicated Team',
+    'dedicated_team_heading' => 'Đội ngũ tận tâm',
     'dedicated_team_content' => 'Thiết kế và thực hiện các giải pháp gia công phần mềm trong phát triển web trên quy mô nhân lực, được thiết kế riêng cho khách hàng.',
 ];
