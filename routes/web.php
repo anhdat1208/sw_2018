@@ -11,7 +11,7 @@ Route::group(['namespace' => 'Web'], function () {
 
 $currentLocale = app()->getLocale();
 
-foreach (['en', 'vi', 'fr'] as $locale) {
+foreach (\Config::get('app.locales') as $locale) {
     app()->setLocale($locale);
     Route::group(['namespace' => 'Web', 'prefix' => $locale, 'as' => $locale . '_'], function () {
         Route::get('/', 'HomeController@index')->name('home');
