@@ -9,7 +9,7 @@ function translate_route($name, $params = [], $nextLocale = '')
         return route($nextLocale . '_' . $nextRouteName, $params);
     }
 
-    if ($currentLocale != config('app.locale')) {
+    if ($currentLocale != config('app.fallback_locale')) {
         return route(app()->getLocale() . '_' . $name, $params);
     }
 

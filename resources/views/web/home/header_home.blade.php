@@ -14,7 +14,7 @@
     <nav class="navbar navbar-expand-lg navbar-transparent fixed-top" color-on-scroll="120">
         <div class="container">
             <div class="navbar-translate">
-                <a class="navbar-brand" href="{{ ('/') }}">
+                <a class="navbar-brand" href="{{ translate_route('home') }}">
                     <img src="{{ asset('web/images/LogoSilkWires.svg') }}" alt="Silkwires" width="245">
                 </a>
                 <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-label="Toggle navigation">
