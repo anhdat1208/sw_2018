@@ -2,9 +2,9 @@
     $englishParams = !empty($englishParams) ? $englishParams : [];
     $frenchParams = !empty($frenchParams) ? $frenchParams : [];
     $vietnameseParams = !empty($englishParams) ? $vietnameseParams : [];
-    $currentUrlInEnglish = translate_route(\Route::currentRouteName(), $englishParams, 'en');
-    $currentUrlInFrench = translate_route(\Route::currentRouteName(), $frenchParams, 'fr');
-    $currentUrlInVietnamese = translate_route(\Route::currentRouteName(), $vietnameseParams, 'vi');
+    $currentUrlInEnglish = translate_route_2(\Route::currentRouteName(), $englishParams, 'en');
+    $currentUrlInFrench = translate_route_2(\Route::currentRouteName(), $frenchParams, 'fr');
+    $currentUrlInVietnamese = translate_route_2(\Route::currentRouteName(), $vietnameseParams, 'vi');
 @endphp
 <div class="loader">
     <img src="{{ asset('web/images/LogoSilkWires.svg') }}" alt="">
