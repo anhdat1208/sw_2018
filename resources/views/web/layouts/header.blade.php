@@ -1,3 +1,11 @@
+@php
+    $englishParams = !empty($englishParams) ? $englishParams : [];
+    $frenchParams = !empty($frenchParams) ? $frenchParams : [];
+    $vietnameseParams = !empty($englishParams) ? $vietnameseParams : [];
+    $currentUrlInEnglish = translate_route(\Route::currentRouteName(), $englishParams, 'en');
+    $currentUrlInFrench = translate_route(\Route::currentRouteName(), $frenchParams, 'fr');
+    $currentUrlInVietnamese = translate_route(\Route::currentRouteName(), $vietnameseParams, 'vi');
+@endphp
 <div class="loader">
     <img src="{{ asset('web/images/LogoSilkWires.svg') }}" alt=" ">
 </div>
@@ -34,13 +42,13 @@
                             <i class="fa fa-cogs d-lg-none d-xl-none"></i> {{ strtoupper(app()->getLocale()) }}
                         </a>
                         <div class="dropdown-menu dropdown-with-icons">
-                            <a href="{{ route('language.handle', ['lang' => 'en']) }}" class="dropdown-item @if(app()->getLocale() == 'en') d-none @endif">
+                            <a href="{{ $currentUrlInEnglish }}" class="dropdown-item @if(app()->getLocale() == 'en') d-none @endif">
                                 <i class="tim-icons icon-paper"></i> EN
                             </a>
-                            <a href="{{ route('language.handle', ['lang' => 'vi']) }}" class="dropdown-item @if(app()->getLocale() == 'vi') d-none @endif">
+                            <a href="{{ $currentUrlInVietnamese }}" class="dropdown-item @if(app()->getLocale() == 'vi') d-none @endif">
                                 <i class="tim-icons icon-bullet-list-67"></i> VI
                             </a>
-                            <a href="{{ route('language.handle', ['lang' => 'fr']) }}" class="dropdown-item @if(app()->getLocale() == 'fr') d-none @endif">
+                            <a href="{{ $currentUrlInFrench }}" class="dropdown-item @if(app()->getLocale() == 'fr') d-none @endif">
                                 <i class="tim-icons icon-bullet-list-67"></i> FR
                             </a>
                         </div>

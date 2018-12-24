@@ -8,11 +8,6 @@ class LanguageController extends Controller
 {
     public function handle($lang = '')
     {
-        // $oldLocale = app()->getLocale();
-        // $previousRouteName = app('router')->getRoutes()->match(app('request')->create(\URL::previous()))->getName();
-        // if ($oldLocale != 'en') {
-            
-        // }
         $locale = $lang;
         if (in_array($locale, config('app.locales'))) {
             app()->setLocale($locale);
