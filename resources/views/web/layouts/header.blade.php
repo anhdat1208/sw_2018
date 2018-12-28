@@ -9,7 +9,7 @@
 <div class="loader">
     <img src="{{ asset('web/images/LogoSilkWires.svg') }}" alt="">
 </div>
-<header class="header">
+<header class="header header-dark">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-underpage fixed-top" color-on-scroll="120">
         <div class="container-fluid">

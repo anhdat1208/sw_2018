@@ -5,12 +5,12 @@
             <div class="clear"></div>
         </div>
     </div>
-    <div class="section_content">
+    <div class="container">
         <div class="recent-work_content">
             <ul class="timeline">
                 <li>
                     <div class="time-item">
-                        <div class="time-inner">
+                        <div class="time-inner expands">
                             <div class="time-detail">
                                 <div class="picture_holder" style="">
                                     <big>1</big>

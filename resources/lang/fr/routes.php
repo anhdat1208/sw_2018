@@ -10,5 +10,7 @@ return [
         'contact' => '/contactez-nous.html',
         'service' => '/nos-services.html',
         'digital_strategy' => '/strategie-digitale.html',
+        'about_us' => '/a-propos.html',
+        'expertise' => '/expertises.html'
     ]
 ];
