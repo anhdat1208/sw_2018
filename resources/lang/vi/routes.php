@@ -10,5 +10,7 @@ return [
         'contact' => '/lien-he.html',
         'service' => '/dich-vu.html',
         'digital_strategy' => '/chien-luoc-so.html',
+        'about_us' => '/ve-chung-toi.html',
+        'expertise' => '/chuyen-mon.html'
     ]
 ];

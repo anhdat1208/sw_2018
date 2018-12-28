@@ -5,7 +5,7 @@ return [
     'heading' => "Outsourcing, your dedicated team in Vietnam",
     'text_lead' => "Our job is to design and implement outsourcing solutions in web development on a human scale, tailor-made for our clients.",
     'content' => "<h6>Back office according to Silkwires</h6>
-        We are specialists on behalf of our clients to setup development teams, in charge of operating the production part for them.<br/>From our offices in Ho Chi Minh City, Vietnam, our teams are involved in outsourcing missions by realizing defined tasks or processes with our clients in real time.<br/><br/>" . 
+        We are specialists on behalf of our clients to setup development teams, in charge of operating the production part for them.<br/>From our offices in Ho Chi Minh City, Vietnam, our teams are involved in outsourcing missions by realizing defined tasks or processes with our clients in real time.<br/><br/>" .
         "<h6>Why outsource ?</h6>
         Delegating the operational management of all or part of your production to an external partner is above all to optimize the overall efficiency of your organization, as well as your margins. It's also the way for you to increase the flexibility and responsiveness of your structure, by accessing new or additional skills easily.<br/><br/>" .
         "<h5>Know-how</h5>

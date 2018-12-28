@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79.471 68.743">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1 {
+        stroke-width: 1.5px;
+      }
+
+      .cls-2 {
+        stroke-width: 1.189px;
+      }
+
+      .cls-3 {
+        stroke-width: 1.101px;
+      }
+    </style>
+  </defs>
+  <g id="Group_427" data-name="Group 427" transform="translate(0 0)">
+    <path id="Path_1340" data-name="Path 1340" class="cls-1" d="M40.153,64.178A28.989,28.989,0,1,1,69.147,35.193,29.027,29.027,0,0,1,40.153,64.178Z" transform="translate(-0.881 -0.469)"/>
+    <path id="Path_1341" data-name="Path 1341" class="cls-1" d="M41.137,54.314A18.137,18.137,0,1,1,59.274,36.177,18.165,18.165,0,0,1,41.137,54.314Z" transform="translate(-1.865 -1.453)"/>
+    <circle id="Ellipse_118" data-name="Ellipse 118" class="cls-1" cx="7.28" cy="7.28" r="7.28" transform="translate(31.992 27.444)"/>
+    <g id="Group_426" data-name="Group 426" transform="translate(5.593 1.036)">
+      <line id="Line_43" data-name="Line 43" class="cls-2" y2="67.367" transform="translate(33.679 0)"/>
+      <line id="Line_44" data-name="Line 44" class="cls-2" x1="67.367" transform="translate(0 33.688)"/>
+    </g>
+    <path id="Path_1342" data-name="Path 1342" class="cls-3" d="M.55,15.276V.55h18.2"/>
+    <path id="Path_1343" data-name="Path 1343" class="cls-3" d="M18.751,72.986H.55V58.26" transform="translate(0 -4.794)"/>
+    <path id="Path_1344" data-name="Path 1344" class="cls-3" d="M16.4,58.26" transform="translate(-1.317 -4.794)"/>
+    <path id="Path_1345" data-name="Path 1345" class="cls-3" d="M69.17,58.26" transform="translate(-5.7 -4.794)"/>
+    <path id="Path_1346" data-name="Path 1346" class="cls-3" d="M84.371,58.26V72.986H66.17" transform="translate(-5.451 -4.794)"/>
+    <path id="Path_1347" data-name="Path 1347" class="cls-3" d="M66.17.55h18.2V15.276" transform="translate(-5.451)"/>
+  </g>
+</svg>
