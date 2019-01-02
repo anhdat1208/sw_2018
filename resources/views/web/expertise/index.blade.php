@@ -16,12 +16,12 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="{{ translate_route('expertise.index') }}">
+                        <a class="nav-link active" href="">
                             {{ __('about_us.nav_item.expertises') }}
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">
+                        <a class="nav-link" href="{{ translate_route('methodology.index') }}">
                             {{ __('about_us.nav_item.methodology') }}
                         </a>
                     </li>

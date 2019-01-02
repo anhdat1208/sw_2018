@@ -11,7 +11,7 @@
             <div class="container-fluid container-full-center relative">
                 <ul class="nav nav-button">
                     <li class="nav-item">
-                        <a class="nav-link active" href="{{ translate_route('about_us.index') }}">
+                        <a class="nav-link active" href="">
                             {{ __('about_us.nav_item.about_us') }}
                         </a>
                     </li>
@@ -21,7 +21,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">
+                        <a class="nav-link" href="{{ translate_route('methodology.index') }}">
                             {{ __('about_us.nav_item.methodology') }}
                         </a>
                     </li>
