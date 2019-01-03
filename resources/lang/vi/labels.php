@@ -11,4 +11,5 @@ return [
     'read_more' => 'Xem thêm',
     'address' => "37 Ký Con, Phường Nguyễn Thái Bình, <br>Quận 1, TP Hồ Chí Minh, Việt Nam",
     'discover' => 'Xem chi tiết',
+    'why_not_you' => "Và tại sao không<br> phải là bạn?"
 ];
