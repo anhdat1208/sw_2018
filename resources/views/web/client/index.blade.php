@@ -9,7 +9,7 @@
     <main class="main page-content my-auto">
         <div class="container-fluid">
             <span class="page-title">
-                Clients
+                {{ __('menus.clients') }}
             </span>
         </div>
         <div class="wp-clients">
@@ -61,7 +61,7 @@
                 </div>
                 <a class="why-not-you wow zoomIn" data-wow-delay="1100ms" href="{{ translate_route('contact.index') }}">
                     <span>
-                        And Why not you?
+                        {!! __('labels.why_not_you') !!}
                     </span>
                     <i class="lnr lnr-arrow-right">
                     </i>

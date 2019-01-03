@@ -43,9 +43,9 @@
                     <li class="dropdown dropdown-nav nav-item p-0">
                         <a class="dropdown-toggle nav-link @yield('agency_active')" href="#" data-toggle="dropdown">{{ __('menus.agency') }}</a>
                         <div class="dropdown-menu"> 
-                            <a href="{{ translate_route('about_us.index') }}" class="dropdown-item" title="About us">About us</a>
-                            <a href="{{ translate_route('expertise.index') }}" class="dropdown-item" title="Expertises">Expertises</a>
-                            <a href="{{ translate_route('methodology.index') }}" class="dropdown-item" title="Methodology">Methodology</a>
+                            <a href="{{ translate_route('about_us.index') }}" class="dropdown-item" title="{{ __('about_us.nav_item.about_us') }}">{{ __('about_us.nav_item.about_us') }}</a>
+                            <a href="{{ translate_route('expertise.index') }}" class="dropdown-item" title="{{ __('expertises.title') }}">{{ __('expertises.title') }}</a>
+                            <a href="{{ translate_route('methodology.index') }}" class="dropdown-item" title="{{ __('methodology.title') }}">{{ __('methodology.title') }}</a>
                         </div>
                     </li>
                     <li class="dropdown dropdown-nav nav-item p-0">

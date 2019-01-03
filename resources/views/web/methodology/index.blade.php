@@ -41,23 +41,21 @@
                                                     1
                                                 </big>
                                                 <h4>
-                                                    Strategy Consulting
+                                                    {{ __('methodology.strategy_consulting') }} <br> {{ __('methodology.identifying') }}
                                                     <br>
-                                                        Identifying the needs
-                                                    </br>
                                                 </h4>
                                             </div>
                                             <div class="details_content">
                                                 <p>
-                                                    Each brand or product needs a strategy to attract consumers in their market. Infiltrating the tribes of your audience, we learn to speak their language and behave as they do. Here we learn how your customers interact with your products and your competitors' products. With this, we have a unique insight into their culture. Then, we develop a workable plan that is grounded in reality.
+                                                    {{ __('methodology.strategy_consulting_content') }}
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                     <span class="time-name">
-                                        Strategy Consulting
+                                        {{ __('methodology.strategy_consulting') }}
                                         <br>
-                                            Identifying the needs
+                                            {{ __('methodology.identifying') }}
                                         </br>
                                     </span>
                                 </div>
@@ -71,18 +69,18 @@
                                                     2
                                                 </big>
                                                 <h4>
-                                                    Connect & Interact
+                                                    {{ __('methodology.connect_interact') }}
                                                 </h4>
                                             </div>
                                             <div class="details_content">
                                                 <p>
-                                                    We develop global platforms, campaigns and ecosystems that include open channels of conversation between brands and their communities. This contributes to helping brands to communicate more effectively with their audience, attract more and more people in their community and become, at the same time, a friendly and interesting part of their daily lives.
+                                                    {{ __('methodology.connect_interact_content') }}
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                     <span class="time-name">
-                                        Connect & Interact
+                                        {{ __('methodology.connect_interact') }}
                                     </span>
                                 </div>
                             </li>
@@ -95,21 +93,18 @@
                                                     3
                                                 </big>
                                                 <h4>
-                                                    Product development: marketing oriented !
+                                                    {{ __('methodology.product_development') }}: <br/>{{ __('methodology.marketing_oriented') }} !
                                                 </h4>
                                             </div>
                                             <div class="details_content">
                                                 <p>
-                                                    A product is no longer something you lay on the web just like that! It plays a key role in the ecosystem, through the communication channels and communities. We believe that product development and marketing should be integrated. The great interest of brands is an opportunity to gather feedback and information on the behavior of the community. This allows real people to become involved in your future development, and discovering new sources of revenue as well.
+                                                    {{ __('methodology.product_development_content') }}
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                     <span class="time-name">
-                                        Product development
-                                        <br>
-                                            marketing oriented !
-                                        </br>
+                                        {{ __('methodology.product_development') }} <br> {{ __('methodology.marketing_oriented') }} !
                                     </span>
                                 </div>
                             </li>
@@ -122,24 +117,18 @@
                                                     4
                                                 </big>
                                                 <h4>
-                                                    Analyzing, Outlook, Evolution, Opportunities, Optimization
+                                                   {!! __('methodology.analyzing_title') !!}
                                                 </h4>
                                             </div>
                                             <div class="details_content">
                                                 <p>
-                                                    To ensure efficiency across multiple touch points of the brand, we test, measure and follow the work through performance analysis tools. By analyzing human behavior, conversations, comments and further analysis of cross media and organic traffic, we will be able to give you an expert guidance on the development of your future campaign can better meet targeted needs of your community.
-                                                    <br>
-                                                        Amplify the positive and correct the negative.
-                                                    </br>
+                                                    {!! __('methodology.analyzing_content') !!}
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                     <span class="time-name">
-                                        Analyzing, Outlook,
-                                        <br>
-                                            Evolution, Opportunities, Optimization
-                                        </br>
+                                        {!! __('methodology.analyzing_title') !!}
                                     </span>
                                 </div>
                             </li>

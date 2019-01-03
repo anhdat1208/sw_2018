@@ -12,4 +12,5 @@ return [
     'clients' => 'clients',
     'address' => '37 Ky Con, Ward Nguyen Thai Binh, District 1, Ho Chi Minh City, Vietnam',
     'discover' => 'Discover',
+    'why_not_you' => "And Why not you?"
 ];
