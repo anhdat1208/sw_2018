@@ -48,19 +48,23 @@
                             <a href="{{ translate_route('methodology.index') }}" class="dropdown-item" title="{{ __('methodology.title') }}">{{ __('methodology.title') }}</a>
                         </div>
                     </li>
+
                     <li class="dropdown dropdown-nav nav-item p-0">
                         <a class="dropdown-toggle nav-link @yield('services_active')" href="{{ translate_route('services.index') }}" data-toggle="dropdown">{{ __('menus.services') }}</a>
                         <div class="dropdown-menu"> 
-                            <a href="" class="dropdown-item" title="Digital Strategy">Digital Strategy</a>
-                            <a href="" class="dropdown-item" title="Web &amp; Graphic Design">Web &amp; Graphic Design</a>
-                            <a href="" class="dropdown-item" title="Web Development">Web Development</a>
-                            <a href="" class="dropdown-item" title="Custom Development - Software">Custom Development - Software</a>
-                            <a href="" class="dropdown-item" title="Search Engine Optimization - SEO">Search Engine Optimization - SEO</a>
+                            <a href="{{ translate_route('services.index') }}#v-digital" class="dropdown-item" title="{{ (__('digital_strategy.title_detail')) }}">{{ (__('digital_strategy.title_detail')) }}</a>
+                            <a href="{{ translate_route('services.index') }}#v-web" class="dropdown-item" title="{{ (__('web_graphic_design.title_detail')) }}">{{ (__('web_graphic_design.title_detail')) }}</a>
+                            <a href="{{ translate_route('services.index') }}#v-pills-messages" class="dropdown-item" title="{{ (__('web_development.title_detail')) }}">{{ (__('web_development.title_detail')) }}</a>
+                            <a href="{{ translate_route('services.index') }}#v-custom-dev" class="dropdown-item" title="{{ (__('custom_development_software.title_detail')) }}">{{ (__('custom_development_software.title_detail')) }}</a>
+                            <a href="{{ translate_route('services.index') }}#v-search" class="dropdown-item" title="{{ __('service_seo.title_detail') }}">{{ __('service_seo.title_detail') }}</a>
+                            <a href="{{ translate_route('services.index') }}#v-team" class="dropdown-item" title="{{ (__('dedicated_team.title_detail')) }}">{{ (__('dedicated_team.title_detail')) }}</a>
                         </div>
                     </li>
+
                     <li class="nav-item p-0">
                         <a class="nav-link @yield('clients_active')" href="{{ translate_route('clients.index') }}">{{ __('menus.clients') }}</a>
                     </li>
+                    
                     <li class="nav-item p-0">
                         <a class="nav-link @yield('contact_active')" href="{{ translate_route('contact.index') }}">{{ __('menus.contact_us') }}</a>
                     </li>
