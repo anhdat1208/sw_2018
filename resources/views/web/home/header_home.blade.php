@@ -18,9 +18,7 @@
                     <img src="{{ asset('web/images/LogoSilkWires.svg') }}" alt="Silkwires" width="245">
                 </a>
                 <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-bar bar1"></span>
-                    <span class="navbar-toggler-bar bar2"></span>
-                    <span class="navbar-toggler-bar bar3"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
             <div class="collapse navbar-collapse justify-content-end" id="navigation">
@@ -40,8 +38,8 @@
                     </div>
                 </div>
                 <ul class="navbar-nav navbar-nav-hover">
-                    <li class="dropdown dropdown-nav nav-item p-0">
-                        <a class="dropdown-toggle nav-link @yield('agency_active')" href="#" data-toggle="dropdown">{{ __('menus.agency') }}</a>
+                    <li class="dropdown dropdown-nav nav-item p-0 @yield('agency_active')">
+                        <a class="dropdown-toggle nav-link" href="#" data-toggle="dropdown">{{ __('menus.agency') }}</a>
                         <div class="dropdown-menu"> 
                             <a href="{{ translate_route('about_us.index') }}" class="dropdown-item" title="{{ __('about_us.nav_item.about_us') }}">{{ __('about_us.nav_item.about_us') }}</a>
                             <a href="{{ translate_route('expertise.index') }}" class="dropdown-item" title="{{ __('expertises.title') }}">{{ __('expertises.title') }}</a>
@@ -49,8 +47,8 @@
                         </div>
                     </li>
 
-                    <li class="dropdown dropdown-nav nav-item p-0">
-                        <a class="dropdown-toggle nav-link @yield('services_active')" href="{{ translate_route('services.index') }}" data-toggle="dropdown">{{ __('menus.services') }}</a>
+                    <li class="dropdown dropdown-nav nav-item p-0 @yield('services_active')">
+                        <a class="dropdown-toggle nav-link" href="{{ translate_route('services.index') }}" data-toggle="dropdown">{{ __('menus.services') }}</a>
                         <div class="dropdown-menu"> 
                             <a href="{{ translate_route('services.index') }}#v-digital" class="dropdown-item" title="{{ (__('digital_strategy.title_detail')) }}">{{ (__('digital_strategy.title_detail')) }}</a>
                             <a href="{{ translate_route('services.index') }}#v-web" class="dropdown-item" title="{{ (__('web_graphic_design.title_detail')) }}">{{ (__('web_graphic_design.title_detail')) }}</a>
@@ -61,12 +59,12 @@
                         </div>
                     </li>
 
-                    <li class="nav-item p-0">
-                        <a class="nav-link @yield('clients_active')" href="{{ translate_route('clients.index') }}">{{ __('menus.clients') }}</a>
+                    <li class="nav-item p-0 @yield('clients_active')">
+                        <a class="nav-link" href="{{ translate_route('clients.index') }}">{{ __('menus.clients') }}</a>
                     </li>
                     
-                    <li class="nav-item p-0">
-                        <a class="nav-link @yield('contact_active')" href="{{ translate_route('contact.index') }}">{{ __('menus.contact_us') }}</a>
+                    <li class="nav-item p-0 @yield('contact_active')">
+                        <a class="nav-link" href="{{ translate_route('contact.index') }}">{{ __('menus.contact_us') }}</a>
                     </li>
 
                     <li class="dropdown dropdown-lang nav-item">

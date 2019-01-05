@@ -4,6 +4,8 @@
 
 @section('wrapper-class', 'wp-page page-full-height wide')
 
+@section('contact_active', 'active')
+
 @section('content')
     @include('web.layouts.header')
     <main class="main page-content my-auto">

@@ -4,6 +4,8 @@
 
 @section('wrapper-class', 'wp-page page-index')
 
+@section('agency_active', 'active')
+
 @section('content')
     @include('web.home.header_home')
     @include('web.home.banner_home')
