@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-3 text-lg-center">
+            <div class="col-md-3 text-center mb-3 my-md-auto">
                 <img src="{{ asset('web/images/LogoSilkWires.svg') }}" alt="" width="245">
             </div>
             <div class="col-md-9">

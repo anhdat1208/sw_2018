@@ -4,6 +4,8 @@
 
 @section('wrapper-class', 'wp-page page-min-height wide')
 
+@section('agency_active', 'active')
+
 @section('content')
     @include('web.layouts.header')
     <main class="page-content main my-auto">
@@ -22,7 +24,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="">
-                            {{ __('about_us.nav_item.methodology') }}
+                            {{ __('methodology.title') }}
                         </a>
                     </li>
                 </ul>

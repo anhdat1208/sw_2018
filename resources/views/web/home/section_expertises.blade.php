@@ -14,7 +14,7 @@
                     </div><!-- /.uix-tabs__nav -->
 
                     <div class="uix-tabs__content  wow fadeIn active">
-                        <div class="uix-list-style">
+                        <div class="uix-list-style" data-heading="{{ __('expertises.conception_technology') }}">
                             <p>{{ __('expertises.ergonomics') }}</p>
                             <p>{{ __('expertises.technical_functional') }}</p>
                             <p>{{ __('expertises.web_design') }}</p>
@@ -25,7 +25,7 @@
                         </div>
                     </div>
                     <div class="uix-tabs__content">
-                        <div class="uix-list-style">
+                        <div class="uix-list-style" data-heading="{{ __('expertises.realization') }}">
                             <p>{{ __('expertises.tailored_website') }}</p>
                             <p>{{ __('expertises.ecommerce_website') }}</p>
                             <p>{{ __('expertises.responsive_website') }}</p>
@@ -36,7 +36,7 @@
                     </div>
                     <!-- /end tab 2 -->
                     <div class="uix-tabs__content">
-                        <div class="uix-list-style">
+                        <div class="uix-list-style" data-heading="{{ __('expertises.web_marketing') }}">
                             <p>{{ __('expertises.seo') }}</p>
                             <p>{{ __('expertises.sea') }}</p>
                             <p>{{ __('expertises.web_analytics') }}</p>
@@ -46,7 +46,7 @@
                     </div>
                     <!-- /end tab 3 -->
                     <div class="uix-tabs__content">
-                        <div class="uix-list-style">
+                        <div class="uix-list-style" data-heading="{{ __('expertises.digital_strategy') }}">
                             <p>{{ __('expertises.audit') }}</p>
                             <p>{{ __('expertises.brand_strategy_positioning') }}</p>
                             <p>{{ __('expertises.social_media_strategy') }}</p>

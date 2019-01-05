@@ -4,6 +4,8 @@
 
 @section('wrapper-class', 'wp-page page-min-height wide')
 
+@section('agency_active', 'active')
+
 @section('content')
     @include('web.layouts.header')
     <main class="page-content main my-auto">
@@ -22,7 +24,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ translate_route('methodology.index') }}">
-                            {{ __('about_us.nav_item.methodology') }}
+                            {{ __('methodology.title') }}
                         </a>
                     </li>
                 </ul>
@@ -37,7 +39,7 @@
                             {{ __('expertises.digital_strategy') }}
                         </span>
                         <div class="swing-panel">
-                            <div class="uix-list-style">
+                            <div class="uix-list-style" data-heading="{{ __('expertises.digital_strategy') }}">
                                 <p>
                                     {{ __('expertises.audit') }}
                                 </p>
@@ -73,7 +75,7 @@
                             {{ __('expertises.realization') }}
                         </span>
                         <div class="swing-panel">
-                            <div class="uix-list-style">
+                            <div class="uix-list-style" data-heading="{{ __('expertises.realization') }}">
                                 <p>
                                     {{ __('expertises.tailored_website') }}
                                 </p>
@@ -106,7 +108,7 @@
                             {{ __('expertises.conception_technology') }}
                         </span>
                         <div class="swing-panel">
-                            <div class="uix-list-style">
+                            <div class="uix-list-style" data-heading="{{ __('expertises.conception_technology') }}">
                                 <p>
                                     {{ __('expertises.ergonomics') }}
                                 </p>
@@ -142,7 +144,7 @@
                             {{ __('expertises.web_marketing') }}
                         </span>
                         <div class="swing-panel">
-                            <div class="uix-list-style">
+                            <div class="uix-list-style" data-heading="{{ __('expertises.web_marketing') }}">
                                 <p>
                                     {{ __('expertises.seo') }}
                                 </p>

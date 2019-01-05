@@ -4,6 +4,8 @@
 
 @section('wrapper-class', 'wp-page page-min-height wide')
 
+@section('clients_active', 'active')
+
 @section('content')
     @include('web.layouts.header')
     <main class="main page-content my-auto">
@@ -70,3 +72,19 @@
         </div>
     </main>
 @endsection
+
+@push('scripts')
+<script type="text/javascript" src="{{ asset('web/js/masonry.pkgd.min.js') }}"></script>
+<script type="text/javascript">  
+    function tagsCloud() {
+        if($(window).width() > 992) {
+            var $container = $('#tags-cloud');
+            $container.masonry({
+                columnWidth: 50,
+                itemSelector: '.tag'
+            });
+        }
+    }
+    tagsCloud();
+</script>
+@endpush

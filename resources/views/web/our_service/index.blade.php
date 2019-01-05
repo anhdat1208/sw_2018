@@ -4,12 +4,14 @@
 
 @section('wrapper-class', 'wp-page page-full-height wide')
 
+@section('services_active', 'active')
+
 @section('content')
     @include('web.layouts.header')
     <main class="page-content main my-auto">
         <div class="section-full-vh bg-service">
-            <div class="d-flex ctn-services">
-                <div class="col-sm-6">
+            <div class="row ctn-services">
+                <div class="col-lg-6">
                     <div class="box-tab-content">
                         <div class="tab-content wow fadeInRight" id="v-pills-tabContent">
                             <div class="tab-pane show active" id="v-digital">
@@ -66,7 +68,7 @@
                     </div>
                 </div>
                 <!-- /.col-6 -->
-                <div class="col-sm-6">
+                <div class="col-lg-6">
                     <div class="box-tab wow fadeInLeft">
                         <div class="nav flex-column" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                             <a data-easein="fadeInRight" data-wow-delay="100ms" class="nav-link wow fadeInRight active"
