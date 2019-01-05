@@ -48,14 +48,14 @@
                                        class="btn btn-sm btn-primary">{{ __('labels.discover') }}</a>
                                 </div>
                             </div>
-                            <div class="tab-pane  " id="v-search">
+                            <div class="tab-pane" id="v-search">
                                 <p class="tab-lead">{!! __('services.tabs.seo') !!}</p>
                                 <div class="text-right">
                                     <a href="{{ translate_route('service.detail', ['slug' => __('services.slugs.seo')]) }}"
                                        class="btn btn-sm btn-primary">{{ __('labels.discover') }}</a>
                                 </div>
                             </div>
-                            <div class="tab-pane  " id="v-team">
+                            <div class="tab-pane" id="v-team">
                                 <p class="tab-lead">{!! __('services.tabs.dedicated_team') !!}</p>
                                 <div class="text-right">
                                     <a href="{{ translate_route('service.detail', ['slug' => __('services.slugs.dedicated_team')]) }}"
@@ -99,6 +99,14 @@
             var c;
             var a;
             d($("#v-pills-tab a"), $("#v-pills-tabContent"));
+
+            var url = window.location.href;
+            console.log(url);
+            var path_array = url.split('#');
+            if (typeof path_array[1] !== 'undefined' && path_array[1].length > 0) {
+                var tab = '#' + path_array[1] + '-tab';
+                $(tab).tab('show');
+            }
 
             function d(e, f, g) {
                 e.click(function (i) {
